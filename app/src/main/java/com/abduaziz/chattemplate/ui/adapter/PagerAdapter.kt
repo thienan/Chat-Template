@@ -7,8 +7,8 @@ import android.support.v4.app.FragmentPagerAdapter
 /**
  * Created by abduaziz on 1/9/18.
  */
-class PagerAdapter(fm: FragmentManager, internal var list: List<Fragment>) : FragmentPagerAdapter(fm) {
 
+class PagerAdapter(fm: FragmentManager,var list: List<Fragment>) : FragmentPagerAdapter(fm) {
     override fun getCount(): Int {
         return list.size
     }
@@ -16,5 +16,4 @@ class PagerAdapter(fm: FragmentManager, internal var list: List<Fragment>) : Fra
     override fun getItem(position: Int): Fragment {
         return list[position]
     }
-
 }

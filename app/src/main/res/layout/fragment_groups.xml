@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.abduaziz.chattemplate.ui.view.RecyclerListView
-        android:id="@+id/recyclerViewContacts"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvChats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

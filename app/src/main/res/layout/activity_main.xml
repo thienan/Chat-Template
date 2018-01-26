@@ -10,20 +10,19 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             app:title="@string/app_name">
         </android.support.v7.widget.Toolbar>
 
         <com.abduaziz.chattemplate.ui.view.PagerTabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="56dp" />
 
     </android.support.design.widget.AppBarLayout>
 
@@ -31,6 +30,6 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="conversation" />
+        android:layout_marginTop="112dp"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.fragment_chats.*
  * Created by abduaziz on 1/9/18.
  */
 
-class GroupsFragment : Fragment(){
+class GroupsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

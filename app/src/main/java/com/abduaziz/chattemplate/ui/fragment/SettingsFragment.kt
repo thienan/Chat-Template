@@ -10,7 +10,7 @@ import com.abduaziz.chattemplate.R
 /**
  * Created by abduaziz on 1/9/18.
  */
-class SettingsFragment : Fragment(){
+class SettingsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

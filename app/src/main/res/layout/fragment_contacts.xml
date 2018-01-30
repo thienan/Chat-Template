@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.abduaziz.chattemplate.ui.view.RecyclerListView
         android:id="@+id/recyclerViewContacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/ic_add_contact_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_behavior="com.abduaziz.chattemplate.ui.view.FABFloatOnScrollBehavior"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

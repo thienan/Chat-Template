@@ -32,11 +32,17 @@ class ContactsFragment() : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         recyclerViewContacts.layoutManager = LinearLayoutManager(context)
         controller = ContactsController(listOf(
-                Contact(1, "Sherlock", "Holmes", "Criminal mastermind", -1),
-                Contact(1, "Irene", "Adler", "Have some fun at night", -1),
-                Contact(1, "John", "Watson", "Always here to support", -1),
-                Contact(1, "Mycroft", "Holmes", "Sherlock's brother", -1),
-                Contact(1, "James", "Moriarty", "Napoleon of crime", -1)))
+                Contact(1, "Sherlock", "Holmes", "Criminal mastermind", R.drawable.sherlock),
+                Contact(1, "Irene", "Adler", "Have some fun at night", R.drawable.irene),
+                Contact(1, "John", "Watson", "Always here to support", R.drawable.john),
+                Contact(1, "Mycroft", "Holmes", "Sherlock's brother", R.drawable.mycroft),
+                Contact(1, "James", "Moriarty", "Napoleon of crime", R.drawable.moriarty),
+                Contact(1, "Cristiano", "Ronaldo", "I am the best", -1),
+                Contact(1, "Leonel", "Messi", "No, I am the best", -1),
+                Contact(1, "Paul", "Pogba", "Maybe, next time", -1),
+                Contact(1, "Jose", "Mourinho", "The special one", -1),
+                Contact(1, "Carlos", "Quireoz", "Patriot", -1)
+        ))
         recyclerViewContacts.adapter = controller
 
     }

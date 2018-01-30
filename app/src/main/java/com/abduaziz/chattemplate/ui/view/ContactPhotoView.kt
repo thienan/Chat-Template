@@ -37,9 +37,13 @@ class ContactPhotoView(context: Context, attrs: AttributeSet?) : RelativeLayout(
         addView(textView, textParams)
 
         colors = arrayOf(
-                R.color.c1, R.color.c2, R.color.c3, R.color.c4, R.color.c5,
-                R.color.c6, R.color.c7, R.color.c8, R.color.c9, R.color.c10,
-                R.color.c11, R.color.c12, R.color.c13, R.color.c14, R.color.c15)
+                R.color.c1, R.color.c2,
+                R.color.c3, R.color.c4,
+                R.color.c5, R.color.c6,
+                R.color.c7, R.color.c8,
+                R.color.c9, R.color.c10,
+                R.color.c11, R.color.c12,
+                R.color.c13, R.color.c14)
     }
 
     fun image(photo: Int){
